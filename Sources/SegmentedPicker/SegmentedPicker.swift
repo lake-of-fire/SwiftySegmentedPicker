@@ -5,6 +5,7 @@
 //  Created by Sergey Kazakov on 17.03.2021.
 //
 
+#if os(iOS)
 import SwiftUI
 
 public struct SegmentedPicker<Element, Content, Selection>: View
@@ -68,3 +69,4 @@ public struct SegmentedPicker<Element, Content, Selection>: View
         }
     }
 }
+#endif

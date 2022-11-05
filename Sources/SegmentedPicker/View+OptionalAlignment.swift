@@ -5,6 +5,7 @@
 //  Created by Sergey Kazakov on 17.03.2021.
 //
 
+#if os(iOS)
 import SwiftUI
 
 extension View {
@@ -31,3 +32,4 @@ extension View {
         }
     }
 }
+#endif
